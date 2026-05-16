@@ -25,8 +25,13 @@ A specialized admin tool for WooCommerce that provides a rich-text editing exper
 2. Move the individual plugin folders (`wc-category-visibility`, `dynamic-product-categories`, or `wc_product_advanced_editor`) into your WordPress `wp-content/plugins/` directory.
 3. Activate the plugins through the 'Plugins' menu in WordPress.
 
-### Method 2: Zip Upload (Standard)
+### Method 2: Direct Zip Download (Standard)
 If you do not have FTP access:
+1. You can download the pre-built `.zip` files for each plugin directly from the list above in this repository.
+2. Go to your WordPress Dashboard > **Plugins** > **Add New** > **Upload Plugin**.
+3. Choose the downloaded `.zip` file and click **Install Now**.
+
+### Method 3: Manual Zip Creation
 1. Download this repository as a `.zip` file from the green **Code** button at the top.
 2. Extract the zip on your computer.
 3. Right-click any individual plugin folder (e.g., `wc-category-visibility`) and select **Compress to ZIP file**.
