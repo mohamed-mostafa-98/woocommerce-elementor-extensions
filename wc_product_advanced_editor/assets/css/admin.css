@@ -1,0 +1,102 @@
+.wc-pae-wrap {
+    max-width: 1200px;
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.wc-pae-header h1 {
+    margin: 0 0 20px;
+}
+
+.wc-pae-toolbar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wc-pae-editor-container {
+    margin-top: 20px;
+}
+
+.wc-pae-field-group {
+    margin-bottom: 20px;
+}
+
+.wc-pae-field-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.wc-pae-field-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Image Uploaders */
+.wc-pae-image-uploader {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background: #fafafa;
+    transition: all 0.2s;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    position: relative;
+}
+
+.wc-pae-image-uploader:hover {
+    border-color: #007cba;
+    background: #f0f0f1;
+}
+
+.wc-pae-image-preview {
+    max-width: 100%;
+    max-height: 150px;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.wc-pae-image-preview.hidden {
+    display: none;
+}
+
+.wc-pae-remove-image {
+    display: block;
+    margin-top: 10px;
+    color: #a00;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.wc-pae-actions {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: right;
+}
+
+/* Loading overlay */
+.wc-pae-loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.wc-pae-spinner {
+    display: none;
+    margin-left: 10px;
+}
+
+.wc-pae-spinner.visible {
+    display: inline-block;
+    vertical-align: middle;
+}

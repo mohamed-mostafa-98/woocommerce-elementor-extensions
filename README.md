@@ -10,12 +10,26 @@ A powerful conditional visibility engine that allows you to hide or show any Ele
 ### 2. [Dynamic Product Categories](./dynamic-product-categories/README.md)
 An advanced Elementor widget that dynamically renders a responsive grid of WooCommerce subcategories based on the current page's context. Supports custom static fallback links and flexible display conditions.
 
+### 3. [WC Product Advanced Editor](./wc_product_advanced_editor/README.md)
+A specialized admin tool for WooCommerce that provides a rich-text editing experience for products. Features include advanced typography controls (line height, spacing), category management, and an integrated image uploader for both featured and gallery images.
+
 ## Requirements
 - WordPress 6.0+
 - WooCommerce 8.0+
-- Elementor 3.18+
+- Elementor 3.18+ (Required for Visibility and Category plugins)
 
 ## Installation
+
+### Method 1: Manual Folder Upload (Recommended for Developers)
 1. Clone or download this repository.
-2. Move the individual plugin folders (`wc-category-visibility` and `dynamic-product-categories`) into your WordPress `wp-content/plugins/` directory.
+2. Move the individual plugin folders (`wc-category-visibility`, `dynamic-product-categories`, or `wc_product_advanced_editor`) into your WordPress `wp-content/plugins/` directory.
 3. Activate the plugins through the 'Plugins' menu in WordPress.
+
+### Method 2: Zip Upload (Standard)
+If you do not have FTP access:
+1. Download this repository as a `.zip` file from the green **Code** button at the top.
+2. Extract the zip on your computer.
+3. Right-click any individual plugin folder (e.g., `wc-category-visibility`) and select **Compress to ZIP file**.
+4. Go to your WordPress Dashboard > **Plugins** > **Add New** > **Upload Plugin**.
+5. Choose your newly created `.zip` file and click **Install Now**.
+
