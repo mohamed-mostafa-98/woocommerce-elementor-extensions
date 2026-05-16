@@ -1,0 +1,25 @@
+/* Dynamic Product Categories - Custom Styles */
+
+.dpc-grid-container {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Default Columns */
+.dpc-columns-1 { grid-template-columns: repeat(1, 1fr); }
+.dpc-columns-2 { grid-template-columns: repeat(2, 1fr); }
+.dpc-columns-3 { grid-template-columns: repeat(3, 1fr); }
+.dpc-columns-4 { grid-template-columns: repeat(4, 1fr); }
+.dpc-columns-5 { grid-template-columns: repeat(5, 1fr); }
+.dpc-columns-6 { grid-template-columns: repeat(6, 1fr); }
+
+/* Card Transitions */
+.wlsingle-categorie {
+    transition: all 0.3s ease;
+}
+
+/* Ensure Elementor edit mode has minimum height */
+.dpc-grid-container {
+    min-height: 50px;
+}

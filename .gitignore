@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# Composer
+vendor/
+
+# Antigravity
+.antigravityignore
+implementation_plan.md
